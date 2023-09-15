@@ -79,7 +79,7 @@ function Index() {
 
       if (response.ok) {
         console.log("Tweet deleted:", tweetIdToDelete);
-        // Optionally, you can refresh the list of tweets here
+       
         window.location.reload();
       } else {
         console.error("Error deleting tweet");
